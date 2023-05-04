@@ -11,8 +11,8 @@ align-items: center;  flex-direction: column; */
   position: absolute;
   padding: 50px 100px 100px;
   left: 26%;
-  top: 120px; 
+  top: 120px;
 }
 .form-control {
-  width: 400px;
+  width: 500px;
 }
