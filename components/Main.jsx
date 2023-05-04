@@ -1,6 +1,7 @@
 const React = require('react');
 const Layout = require('./Layout');
 
+
 module.exports = function Main({title}) {
   return (
   <Layout title={title}>
@@ -9,7 +10,8 @@ module.exports = function Main({title}) {
       <div className="mainDiv card">
         <br />
         <h1>Welcome To The TrioFlashCards</h1>
-        {/* <h3>Please enter your name:</h3> */}<br/><br/><br/>
+        <br/><br/><br/>
+        <form action='/' method='post'>
         <div className="input-group flex-nowrap">
           <span className="input-group-text" id="addon-wrapping">
             @
@@ -18,9 +20,12 @@ module.exports = function Main({title}) {
             type="text"
             className="form-control PlayerNameInput"
             placeholder="PlayerName"
+            name='PlayerName'
             aria-describedby="addon-wrapping"
           />
+          <button className="input-group-text" type='submit' >Send</button>
         </div>
+        </form>
         <br />
       </div>
     </Layout>
