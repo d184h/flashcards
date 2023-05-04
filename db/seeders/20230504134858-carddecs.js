@@ -11,6 +11,16 @@ module.exports = {
           createdAt: new Date(),
           updatedAt: new Date(),
         },
+        {
+          subject: "Принцессы",
+          createdAt: new Date(),
+          updatedAt: new Date(),
+        },
+        {
+          subject: "Marvel",
+          createdAt: new Date(),
+          updatedAt: new Date(),
+        },
       ],
       {}
     );
