@@ -1,0 +1,18 @@
+body {
+  text-align: center;
+  /* display: flex;
+align-items: center;  flex-direction: column; */
+}
+.mainDiv {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 750px;
+  position: absolute;
+  padding: 50px 100px 100px;
+  left: 26%;
+  top: 120px; 
+}
+.form-control {
+  width: 400px;
+}
