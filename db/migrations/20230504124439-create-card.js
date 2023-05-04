@@ -20,7 +20,7 @@ module.exports = {
       },
       decId: {
         type: Sequelize.INTEGER,
-        references: { model: "Users" },
+        references: { model: "cardDecs" },
       },
       createdAt: {
         allowNull: false,
