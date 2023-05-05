@@ -76,5 +76,10 @@ align-items: center;  flex-direction: column; */
 }
 
 .card-title {
-  font-size: 1.75rem;
+  font-size: 1.75rem;}
+
+.name {
+  position: absolute;
+  left: 75%;
+  top: 100px;
 }

@@ -2,6 +2,8 @@ const Main = require('../components/Main');
 const router = require('express').Router();
 const { User } = require('../db/models');
 
+
+
 router.get('/', async (req, res) => {
   try {
     res.status(200).renderComponent(Main, { title: 'Flash Cards' });
@@ -21,8 +23,9 @@ router.post('/', async (req, res) => {
       // score: 0,
       
     });
+    res.app.locals.name =PlayerName
+
     res.redirect('/play')
-    // router.locals =PlayerName
     // console.log(router.locals,'------------')
   } catch (error) {}
 });

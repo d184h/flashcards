@@ -14,7 +14,9 @@ module.exports = function Layout({ title, children }) {
           integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC"
           crossorigin="anonymous"
         ></link>
-        <script src="/scripts/mainScript.js"/>
+        <script defer src="/scripts/mainScript.js"/>
+        <script defer src="/scripts/playScript.js"/>
+
       </head>
       <body>
         <Navbar />
