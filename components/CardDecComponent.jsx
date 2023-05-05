@@ -11,7 +11,7 @@ module.exports = function CardDecComponent({cardDecs}) {
       <h5 class="card-title">{cardDecs.subject}</h5>
       <br /><br /><br />
       
-      <button href="#" class="btn btn-primary">Card link</button>
+      <button href={`/play/${cardDecs.id}/0`} class="btn btn-primary subjectBtn" data-id={cardDecs.id} type='submit'>Card link</button>
       
     </div>
   </div>
