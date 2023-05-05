@@ -11,7 +11,7 @@ module.exports = function Main({title}) {
         <br />
         <h1>Welcome To The TrioFlashCards</h1>
         <br/><br/><br/>
-        <form action='/' method='post'>
+        <form action='/' method='post' id='playerNameForm'>
         <div className="input-group flex-nowrap">
           <span className="input-group-text" id="addon-wrapping">
             @
