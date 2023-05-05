@@ -16,15 +16,15 @@ module.exports = (sequelize, DataTypes) => {
   card.init(
     {
       questions: {
-        type: Sequelize.TEXT,
+        type: DataTypes.TEXT,
         allowNull: false,
       },
       answer: {
-        type: Sequelize.TEXT,
+        type: DataTypes.TEXT,
         allowNull: false,
       },
       decId: {
-        type: Sequelize.INTEGER,
+        type: DataTypes.INTEGER,
         references: { model: "carDecs" },
       },
     },

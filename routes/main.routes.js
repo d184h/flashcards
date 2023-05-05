@@ -13,11 +13,17 @@ router.get('/', async (req, res) => {
 router.post('/', async (req, res) => {
   try {
     const { PlayerName } = req.body;
-    console.log(PlayerName, '------------')
+
+
     const user = await User.create({
       name: PlayerName,
-      score: 0,
+     
+      // score: 0,
+      
     });
+    res.redirect('/play')
+    // router.locals =PlayerName
+    // console.log(router.locals,'------------')
   } catch (error) {}
 });
 

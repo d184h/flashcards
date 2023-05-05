@@ -16,3 +16,19 @@ align-items: center;  flex-direction: column; */
 .form-control {
   width: 500px;
 }
+
+.PlayDiv {
+  display: flex;
+  justify-content: space-around;
+  flex-direction: row;
+  /* align-items: center; */
+  position: absolute;
+  width: 800px;
+  height: 500px;
+  left: 23%;
+  top: 120px;
+}
+
+.subjects {
+  display: inline-block;
+}
